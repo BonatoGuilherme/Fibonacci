@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nro1 = 1, nro2 = 1, laco = 0, fibonacci = 0, nro
+			escreva("Digite ate qual sequencia de numero queira que vá: ")
+			leia(nro)
+			enquanto(laco <= nro){
+				nro1 = nro2
+				nro2 = fibonacci
+				fibonacci = nro1 + nro2
+				escreva(fibonacci, "\n")
+				laco++
+				
+			}
+	}
+}
